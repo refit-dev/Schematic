@@ -6,7 +6,7 @@ export type SubscriptionTier = "free" | "premium";
 
 // Initialize Stripe client
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY || "", {
-  apiVersion: "2025-09-30.clover",
+  apiVersion: "2026-09-30.endive",
 });
 
 // Subscription limits
